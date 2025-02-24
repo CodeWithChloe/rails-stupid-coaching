@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .yellow-background {
+  background-color: rgb(251, 251, 214);
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .container {
+  width: 70%;
+  max-width: 900px;
+  margin-top: 100px;
+}

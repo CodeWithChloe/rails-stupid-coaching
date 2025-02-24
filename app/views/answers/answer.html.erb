@@ -1,0 +1,18 @@
+
+
+<%# Afficher la question %>
+<div class="container">
+  <div>
+    <p><strong><%= params[:question] %></strong><p>
+    <p>— You<p>
+  </div>
+  <%# Afficher la réponse %>
+
+  <div class="yellow-background">
+    <p><strong><%= @answer %></strong></p>
+    <p>— Your coach<p>
+  </div>
+
+  <a><%= link_to "Ask a new question", ask_path %></a>
+
+</div>
